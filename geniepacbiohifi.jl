@@ -5,7 +5,7 @@
 # release today. 
 
 using Genie
-Genie.Generator.newapp_mvc("TodoMVC")
+Genie.Generator.newapp_mvc("PacBiohifi-MVC")
 
 using Genie.Router
 route("/") do
