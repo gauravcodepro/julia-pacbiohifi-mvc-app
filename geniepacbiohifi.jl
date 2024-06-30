@@ -19,6 +19,7 @@ route("/") do
 end
 
 function readpacbiohifi(pacbiohififastq)
+  # catching the regular pattern instead of the reading and storing the line as intermediate variable 
     readpacbio = readlines(pacbiohififastq)
     pacbioiddnaunpack = String[]
     pacbiodnastring = String[]
@@ -42,6 +43,7 @@ function length(pacbiohififastq)
       if startswith(line, "@")
          push!(pacbioiddnaunpack, (line)[1])
       end 
+  # implementing the regular expression of the string start rather than iterating over the lines making it O(n2) faster.
       if startswith(line, r"A|T|G|C")
         push!(pacbiodnastring, line)
       end
