@@ -2,10 +2,9 @@
 # Author Gaurav
 # Universitat Potsdam
 # Date 2024-6-30
-
 # a pacbiohifi MVC application for the live stream of your sequencing reads and display inline with the web-browser.
-# sunday morning 5 minutes to run the function and build this Genie application
-# sunday afternoon 1 hour to make the HTML and add the searchlight.jl and javascript
+# 2024-6-30 morning 5 minutes to code and run the function and templating this Genie application
+# 2024-6-30 afternoon 1-2 hour to make the HTML and add the searchlight.jl and javascript
 # release today. 
 
 using Genie
