@@ -11,6 +11,7 @@ using Genie
 using CairoMakie
 using DataFrames
 using SearchLight
+using MySQL
 Genie.Generator.newapp_mvc("PacBiohifi-MVC")
 
 using Genie.Router
@@ -54,3 +55,5 @@ end
 function displaypacbio(pacbiohififastq)
    SearchLight.Migrations.init()
     # make a backhand SQL database and store the reads for the dispatch and faster I/0 
+    conn = DBInterface.connect(MySQL.Connection, host, user, passwd) 
+    # add a struct here for the MySQL as prompt is not needed. 
