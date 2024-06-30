@@ -4,7 +4,7 @@
 - view and browse pacbiohifi reads through the genie web build. 
 - view the pacbiohifiruns from your desktop and faster I/O as they runs through the sequencing.
 - connect to a sequencing read folder and live stream your sequencing reads.
-- store in a database currently uses MYSQL.
+- store in a database according to the sequencing runs and it currently uses MYSQL.
 - for any sequencing service or start ups.
   
 ```
