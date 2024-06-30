@@ -45,7 +45,7 @@ function length(pacbiohififastq)
       if startswith(line, r"A|T|G|C")
         push!(pacbiodnastring, line)
       end
-     pacbiolengthstring = union(length,pacbiodnastring)
+     pacbiolengthstring = union(map(length,pacbiodnastring))
     end
 end 
 
