@@ -1,7 +1,8 @@
 # pacbiohifi-mvc-app
 
 - julia mvc application for the pacbiohifi.
-- reading the string as substring vector and the int as further bit constrainted for faster reads and browse throught the genie web build. 
+- reading the string as substring vector and the int as further bit constrainted.
+- view and browse pacbiohifi reads through the genie web build. 
 - view the pacbiohifiruns from your desktop and faster I/O as they runs through the sequencing.
 - connect to a sequencing read folder and live stream your sequencing reads.
 - for any sequencing service or start ups.
