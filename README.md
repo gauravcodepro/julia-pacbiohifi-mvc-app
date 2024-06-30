@@ -1,4 +1,4 @@
-# pacbiohifi-mvc-app
+# julia-pacbiohifi-mvc-app
 
 - julia mvc application for the pacbiohifi.
 - view and browse pacbiohifi reads through the genie web build. 
