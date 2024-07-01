@@ -14,6 +14,20 @@ activate .
 Genie.loadapp()
 ```
 
+The app functions are located as including the database:
+
+├── app
+├── bin
+├── bootstrap.jl
+├── config
+├── db
+├── Manifest.toml
+├── Project.toml
+├── public
+├── routes.jl
+├── src
+└── test
+
 - **To do today: add the router path, add the searchlight.jl using the MVC re-route, make the final release**
 
 Gaurav \
