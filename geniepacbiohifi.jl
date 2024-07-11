@@ -1,6 +1,5 @@
 #! /usr/bin/env julia
 # Author Gaurav
-# Universitat Potsdam
 # Date 2024-6-30
 # a pacbiohifi MVC application for the live stream of your sequencing reads and display inline with the web-browser.
 # 2024-6-30 morning 5 minutes to code and run the function and templating this Genie application
