@@ -31,9 +31,4 @@ The app functions are located as including the database:
 
 - **To do today: add the router path, add the searchlight.jl using the MVC re-route, make the final release**
 
-Gaurav \
-Academic Staff Member \
-Bioinformatics \
-Institute for Biochemistry and Biology \
-University of Potsdam \
-Potsdam,Germany
+Gaurav 
